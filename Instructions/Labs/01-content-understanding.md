@@ -184,7 +184,7 @@ You are going to build an Azure AI Content Understanding analyzer that can extra
     | `ProductCategory` | `Product category name` | String | Generate |
     | `RevenuePercentage` | `Percentage of revenue` | Number | Generate |
 
-1. Select **Back** to return to the top level of your schema, and verify that it looks like this. Then select **Save**.
+1. Select **Back** (the arrow icon near the **Add new subfield** button) or **Ok** to return to the top level of your schema, and verify that it looks like this. Then select **Save**.
 
     ![Screenshot of a schema for a slide image.](./media/slide-schema.png)
 
