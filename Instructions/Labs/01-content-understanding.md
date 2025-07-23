@@ -288,7 +288,7 @@ Now that you have trained a model to extract fields from voice messages, you can
 1. Wait for the new analyzer to be ready (use the **Refresh** button to check).
 1. When the analyzer has been built, select the **voicemail-analyzer** link. The fields defined in the analyzer's schema will be displayed.
 1. In the **voicemail-analyzer** page, select the **Test** tab.
-1. Use the **+ Upload test files** button to upload **call-2.mp3** from the folder where you extracted the content files, and run the analysis to extract field data from the audio file.
+1. Use the **+ Upload test files** button to upload **call-2.mp3** from the folder where you extracted the content files, and click on **Run analysis** to extract field data from the audio file.
 
     Audio analysis can take some time. While you're waiting, you can play the audio file below:
 
