@@ -177,7 +177,7 @@ You are going to build an Azure AI Content Understanding analyzer that can extra
     | `Quarter` | `Which quarter?` | String | Generate |
     | `Revenue` | `Revenue for the quarter` | Number | Generate |
 
-1. Select **Back** to return to the top level of your schema, and use **+ Add new field** button to add a new field named `ProductCategories` with the description `Product categories` with the value type **Table**, and save the new field (**&#10003;**). Then, in the new page for the table subfields that opens, add the following subfields:
+1. Select **Back** (the arrow icon near the **Add new subfield** button) or **Ok** to return to the top level of your schema, and use **+ Add new field** button to add a new field named `ProductCategories` with the description `Product categories` with the value type **Table**, and save the new field (**&#10003;**). Then, in the new page for the table subfields that opens, add the following subfields:
 
     | Field name | Field description | Value type | Method |
     |--|--|--|--|
