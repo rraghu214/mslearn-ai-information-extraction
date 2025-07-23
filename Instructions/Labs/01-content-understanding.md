@@ -210,7 +210,7 @@ Now that you have trained a model to extract fields from slides, you can build a
 1. Wait for the new analyzer to be ready (use the **Refresh** button to check).
 1. When the analyzer has been built, select the **slide-analyzer** link. The fields defined in the analyzer's schema will be displayed.
 1. In the **slide-analyzer** page, select the **Test** tab.
-1. Use the **+ Upload test files** button to upload **slide-2.jpg** from the folder where you extracted the content files, and run the analysis to extract field data from the image.
+1. Use the **+ Upload test files** button to upload **slide-2.jpg** from the folder where you extracted the content files, and click on **Run analysis** to extract field data from the image.
 
     The slide being analyzed looks like this:
 
