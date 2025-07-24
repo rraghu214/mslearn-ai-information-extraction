@@ -344,7 +344,7 @@ You are going to build an Azure AI Content Understanding analyzer that can extra
     | `Task` | `Description of the task` | String | Generate |
     | `AssignedTo` | `Who the task is assigned to` | String | Generate |
 
-1. Select Select **Back** (the arrow icon near the **Add new subfield** button) or **&#10003; OK** to return to the top level of your schema, and verify that it looks like this. Then select **Save**.
+1. Select **Back** (the arrow icon near the **Add new subfield** button) or **&#10003; OK** to return to the top level of your schema, and verify that it looks like this. Then select **Save**.
 
 1. Verify that your schema looks like this. Then select **Save**.
 
