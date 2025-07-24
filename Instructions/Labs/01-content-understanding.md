@@ -128,7 +128,7 @@ Now that you have trained a model to extract fields from invoices, you can build
 1. Wait for the new analyzer to be ready (use the **Refresh** button to check).
 1. When the analyzer has been built, select the **invoice-analyzer** link. The fields defined in the analyzer's schema will be displayed.
 1. In the **invoice-analyzer** page, select the **Test** tab.
-1. Use the **+ Upload test files** button to upload **invoice-1235.pdf** from the folder where you extracted the content files, and run the analysis to extract field data from the invoice.
+1. Use the **+ Upload test files** button to upload **invoice-1235.pdf** from the folder where you extracted the content files, and click on **Run analysis** to extract field data from the invoice.
 
     The invoice being analyzed looks like this:
 
@@ -177,14 +177,14 @@ You are going to build an Azure AI Content Understanding analyzer that can extra
     | `Quarter` | `Which quarter?` | String | Generate |
     | `Revenue` | `Revenue for the quarter` | Number | Generate |
 
-1. Select **Back** to return to the top level of your schema, and use **+ Add new field** button to add a new field named `ProductCategories` with the description `Product categories` with the value type **Table**, and save the new field (**&#10003;**). Then, in the new page for the table subfields that opens, add the following subfields:
+1. Select **Back** (the arrow icon near the **Add new subfield** button) or **&#10003; OK** to return to the top level of your schema, and use **+ Add new field** button to add a new field named `ProductCategories` with the description `Product categories` with the value type **Table**, and save the new field (**&#10003;**). Then, in the new page for the table subfields that opens, add the following subfields:
 
     | Field name | Field description | Value type | Method |
     |--|--|--|--|
     | `ProductCategory` | `Product category name` | String | Generate |
     | `RevenuePercentage` | `Percentage of revenue` | Number | Generate |
 
-1. Select **Back** to return to the top level of your schema, and verify that it looks like this. Then select **Save**.
+1. Select **Back** (the arrow icon near the **Add new subfield** button) or **&#10003; OK** to return to the top level of your schema, and verify that it looks like this. Then select **Save**.
 
     ![Screenshot of a schema for a slide image.](./media/slide-schema.png)
 
@@ -210,7 +210,7 @@ Now that you have trained a model to extract fields from slides, you can build a
 1. Wait for the new analyzer to be ready (use the **Refresh** button to check).
 1. When the analyzer has been built, select the **slide-analyzer** link. The fields defined in the analyzer's schema will be displayed.
 1. In the **slide-analyzer** page, select the **Test** tab.
-1. Use the **+ Upload test files** button to upload **slide-2.jpg** from the folder where you extracted the content files, and run the analysis to extract field data from the image.
+1. Use the **+ Upload test files** button to upload **slide-2.jpg** from the folder where you extracted the content files, and click on **Run analysis** to extract field data from the image.
 
     The slide being analyzed looks like this:
 
@@ -288,7 +288,7 @@ Now that you have trained a model to extract fields from voice messages, you can
 1. Wait for the new analyzer to be ready (use the **Refresh** button to check).
 1. When the analyzer has been built, select the **voicemail-analyzer** link. The fields defined in the analyzer's schema will be displayed.
 1. In the **voicemail-analyzer** page, select the **Test** tab.
-1. Use the **+ Upload test files** button to upload **call-2.mp3** from the folder where you extracted the content files, and run the analysis to extract field data from the audio file.
+1. Use the **+ Upload test files** button to upload **call-2.mp3** from the folder where you extracted the content files, and click on **Run analysis** to extract field data from the audio file.
 
     Audio analysis can take some time. While you're waiting, you can play the audio file below:
 
@@ -344,7 +344,7 @@ You are going to build an Azure AI Content Understanding analyzer that can extra
     | `Task` | `Description of the task` | String | Generate |
     | `AssignedTo` | `Who the task is assigned to` | String | Generate |
 
-1. Select **&#10003; OK** to return to the top level of your schema, and verify that it looks like this. Then select **Save**.
+1. Select **Back** (the arrow icon near the **Add new subfield** button) or **&#10003; OK** to return to the top level of your schema, and verify that it looks like this. Then select **Save**.
 
 1. Verify that your schema looks like this. Then select **Save**.
 
@@ -394,5 +394,5 @@ Now that you have trained a model to extract fields from conference call recordi
 
 If you've finished working with the Content Understanding service, you should delete the resources you have created in this exercise to avoid incurring unnecessary Azure costs.
 
-1. In the Azure AI Foundry portal, navigate to your project and delete it.
+1. In the Azure AI Foundry portal, navigate to your hub, in the overview page, select your project and delete it.
 1. In the Azure portal, delete the resource group you created in this exercise.
