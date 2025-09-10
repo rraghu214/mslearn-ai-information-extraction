@@ -152,7 +152,7 @@ Now that you have the documents in place, you can create an indexer to extract i
     - Runs the skillset of cognitive skills to generate additional enriched fields
     - Maps the extracted fields to the index.
     - Saves the extracted data assets to the knowledge store.
-1. In the navigation pane on the left, under **Search management** view the **Indexers** page, which should show the newly created **margies-indexer**. Wait a few minutes, and click **&orarr; Refresh** until the **Status** indicates **Success**.
+1. In the navigation pane on the left, under **Search management** view the **Indexers** page, which should show the newly created **margies-indexer**. Wait a few minutes, and click **&#8635; Refresh** until the **Status** indicates **Success**.
 
 ## Search the index
 
