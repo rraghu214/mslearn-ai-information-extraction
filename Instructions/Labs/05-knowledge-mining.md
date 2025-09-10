@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Create an knowledge mining solution'
+    title: 'Create a knowledge mining solution'
     description: 'Use Azure AI Search to extract key information from documents and make it easier to search and analyze.'
 ---
 
-# Create an knowledge mining solution
+# Create a knowledge mining solution
 
 In this exercise, you use AI Search to index a set of documents maintained by Margie's Travel, a fictional travel agency. The indexing process involves using AI skills to extract key information to make them searchable, and generating a knowledge store containing data assets for further analysis.
 
